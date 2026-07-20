@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper text-ink font-sans antialiased;
+}
+
+/* Foco visible y accesible en toda la app */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #2f6b76;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* ─── Animaciones para sección Nosotros ─── */
+
+/* Escoba barriendo: gira ±10° con desplazamiento lateral */
+@keyframes sweep {
+  0%, 100% { transform: rotate(-10deg) translate(-4px, 2px); }
+  50%       { transform: rotate(10deg)  translate(4px, -2px); }
+}
+
+/* Flota suavemente arriba y abajo */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-10px); }
+}
+
+/* Hoja meciendo al viento */
+@keyframes sway {
+  0%, 100% { transform: rotate(-7deg) translateX(-2px); }
+  50%       { transform: rotate(7deg)  translateX(2px); }
+}
+
+/* Destello: escala + opacidad — para estrellas/chispas */
+@keyframes sparkle-dot {
+  0%, 100% { opacity: 0.2; transform: scale(0.6); }
+  50%       { opacity: 1;   transform: scale(1.2); }
+}
+
+/* Gota de agua cayendo suavemente */
+@keyframes drop {
+  0%   { transform: translateY(-3px); opacity: 0;   }
+  30%  { opacity: 0.8; }
+  100% { transform: translateY(5px);  opacity: 0;   }
+}
+
+/* ─── Hero: texto flotando con profundidad ─── */
+
+/* Flotación principal del bloque Hero: sube ±14px */
+@keyframes heroFloat {
+  0%, 100% { transform: translateY(0px);   }
+  50%       { transform: translateY(-14px); }
+}
+
+/* ─── Tarjeta flotante 3D (sección Contacto) ─── */
+
+/* Flotación de tarjeta con micro-rotación en perspectiva */
+@keyframes cardFloat {
+  0%, 100% {
+    transform: perspective(900px) rotateX(0deg) translateY(0px);
+    box-shadow:
+      0 4px 6px -1px rgba(20, 33, 61, 0.06),
+      0 10px 25px -5px rgba(20, 33, 61, 0.10),
+      0 25px 50px -10px rgba(20, 33, 61, 0.18),
+      0 0 0 1px rgba(20, 33, 61, 0.04);
+  }
+  50% {
+    transform: perspective(900px) rotateX(1.5deg) translateY(-10px);
+    box-shadow:
+      0 8px 16px -2px rgba(20, 33, 61, 0.08),
+      0 20px 45px -8px rgba(20, 33, 61, 0.16),
+      0 45px 80px -15px rgba(20, 33, 61, 0.22),
+      0 0 0 1px rgba(20, 33, 61, 0.04);
+  }
+}
