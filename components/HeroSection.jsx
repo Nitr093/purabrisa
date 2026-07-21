@@ -90,7 +90,7 @@ export default function HeroSection() {
         >
           {/* Label — primera línea */}
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-amber">
-            Limpieza profesional · Buenos Aires
+            Limpieza profesional a tu alcance
           </p>
 
           {/* Título principal — tiene la sombra dinámica para máximo volumen */}
@@ -102,8 +102,8 @@ export default function HeroSection() {
           </h1>
 
           <p className="mt-5 max-w-xl text-base text-paper/85 sm:text-lg">
-            Equipos capacitados, supervisión constante y productos ecológicos
-            para que tu oficina, obra o consorcio luzca impecable todos los días.
+            Persnal capacitado, con supervisión constante y productos ecológicos
+            para que tu lugar, luzca impecable todos los días.
           </p>
 
           {/* CTAs */}

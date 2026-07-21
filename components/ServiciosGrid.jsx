@@ -169,9 +169,9 @@ const SERVICIOS = [
     Icon: BuildingIcon,
     accentColor: "#5C8D6B", // sage
     imagenes: [      
-      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1783093776/WhatsApp_Image_2026-06-16_at_15.06.42_y1boe9.jpg",
-      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1759241407/wallpaperflare.com_wallpaper_re93yk.jpg",
-      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1759200929/12966_gumpjj.jpg",
+      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1784643757/WhatsApp_Image_2026-06-18_at_19.55.24_3_gfgasa.jpg",
+      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1784642942/WhatsApp_Image_2026-06-18_at_19.55.20_cbyw7u.jpg",
+      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1784643510/WhatsApp_Image_2026-06-18_at_19.55.24_2_een91l.jpg",
     ],
   },
   {

@@ -17,14 +17,16 @@ export default function Home() {
       ══════════════════════════════ */}
       <section id="nosotros" className="mx-auto max-w-6xl px-6 py-20">
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-teal">
-          Nosotros
+          Sobre Nosotros
         </p>
         <h2 className="mt-3 max-w-2xl font-display text-3xl font-bold text-ink sm:text-4xl">
-          Procesos claros, resultados consistentes
+          Los procesos claros, generan resultados consistentes.
         </h2>
         <p className="mt-4 max-w-2xl text-slate">
-          Más de una década acompañando a empresas y consorcios con un servicio
-          basado en protocolos, no en improvisación.
+          Pura Brisa nace como una empresa familiar y poco a poco fue creciendo.
+          Hoy, ya con más de una década acompañando a empresas, consorcios, institucions
+          y particulares, con un servicio basado en protocolos y no en improvisación,
+          contamos con un servicio integral de limpieza.
         </p>
         <NosotrosCards />
       </section>
