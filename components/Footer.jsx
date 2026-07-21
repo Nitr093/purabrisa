@@ -77,7 +77,7 @@ export default function Footer() {
         <div>
           <p className="font-display text-lg font-bold">PURA BRISA</p>
           <p className="mt-2 text-sm text-paper/70">
-            Limpieza corporativa profesional para oficinas, obras y consorcios.
+            Limpieza corporativa profesional para oficinas, obras, consorcios y particulares.
           </p>
         </div>
 
@@ -89,19 +89,18 @@ export default function Footer() {
           <ul className="mt-3 space-y-2.5 text-sm text-paper/80">
 
             {/* Teléfono + botón WhatsApp
-                ↓ Reemplazá el número en el href (formato: 54 + código de área sin 0 + número sin 15)
-                  Ejemplo: +54 11 1234-5678 → https://wa.me/541112345678             */}
+              */}
             <li className="flex items-center gap-2.5">
               <a
-                href="https://wa.me/541112345678"
+                href="https://wa.me/5492257681251"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Escribinos por WhatsApp"
                 className="flex items-center gap-1.5 rounded-md bg-[#25D366]/15 px-2.5 py-1 text-[#25D366] transition-colors hover:bg-[#25D366]/25"
               >
                 <WhatsAppIcon />
-                {/* ↓ REEMPLAZÁ el número de teléfono que se muestra aquí */}
-                <span className="font-medium">+54 11 1234-5678</span>
+                {/* número de teléfono */}
+                <span className="font-medium">+54 9 2257 68-1251</span>
               </a>
             </li>
 
@@ -111,10 +110,10 @@ export default function Footer() {
                 <MailIcon />
               </span>
               <a
-                href="mailto:admpurabrisa@gmail.com"
+                href="mailto:info@purabrisa.com.ar"
                 className="hover:text-amber"
               >
-                admpurabrisa@gmail.com
+                info@purabrisa.com.ar
               </a>
             </li>
 
@@ -123,7 +122,7 @@ export default function Footer() {
               <span className="text-amber/70">
                 <GlobeIcon />
               </span>
-              <span>Buenos Aires, Argentina</span>
+              <span>San Bernardo del Tuyu, Buenos Aires</span>
             </li>
           </ul>
         </div>
@@ -139,10 +138,10 @@ export default function Footer() {
             Envianos tu CV a:
           </p>
           <a
-            href="mailto:rrhh@purabrisalimpieza.com.ar"
+            href="mailto:rrhh@purabrisa.com.ar"
             className="mt-1.5 inline-block text-sm font-semibold text-paper hover:text-amber"
           >
-            rrhh@purabrisalimpieza.com.ar
+            rrhh@purabrisa.com.ar
           </a>
         </div>
       </div>

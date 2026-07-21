@@ -75,7 +75,7 @@ export default function ContactForm() {
             type="text"
             value={formData.empresa}
             onChange={handleChange}
-            placeholder="Nombre de tu empresa o consorcio"
+            placeholder="Si sos particular deja en blanco"
             className="rounded-md border border-ink/15 bg-paper px-4 py-2.5 text-sm text-ink placeholder:text-slate/60 focus:border-teal focus:outline-none"
           />
         </div>
@@ -130,7 +130,7 @@ export default function ContactForm() {
           rows={4}
           value={formData.mensaje}
           onChange={handleChange}
-          placeholder="Contanos sobre el espacio, metraje y frecuencia que necesitás"
+          placeholder="Contanos qué necesitas"
           className="rounded-md border border-ink/15 bg-paper px-4 py-2.5 text-sm text-ink placeholder:text-slate/60 focus:border-teal focus:outline-none"
         />
       </div>
