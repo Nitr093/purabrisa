@@ -32,14 +32,14 @@ export default function Home() {
       {/* ══════════════════════════════
           SERVICIOS
       ══════════════════════════════ */}
-      <section id="servicios" className="bg-white px-6 py-20">
+      <section id="servicios" className="bg-white px-6 py-20">        
         <div className="mx-auto max-w-6xl">
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-teal">
             Servicios
           </p>
           <h2 className="mt-3 max-w-2xl font-display text-3xl font-bold text-ink sm:text-4xl">
             Soluciones a medida de cada espacio
-          </h2>
+          </h2>          
           <ServiciosGrid />
         </div>
       </section>
@@ -75,13 +75,13 @@ export default function Home() {
             </h2>
             <p className="mt-4 max-w-md text-slate">
               Contanos sobre tu espacio y te respondemos con una propuesta
-              ajustada a tu metraje y frecuencia necesaria.
+              ajustada a tu necesidad.
             </p>
 
             <ul className="mt-8 space-y-2 text-sm text-slate">
-              <li>📍 Buenos Aires, Argentina</li>
-              <li>📞 +54 11 1234-5678</li>
-              <li>✉️ info@purabrisalimpieza.com.ar</li>
+              <li>📍 Cubrimos todo el partido de La Costa</li>
+              <hr></hr>
+              <p className="mt-3 font-display text-3xl font-bold text-ink text-slate">¡ Nos pondremos en contacto !</p>
             </ul>
           </div>
 

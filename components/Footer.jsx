@@ -77,7 +77,8 @@ export default function Footer() {
         <div>
           <p className="font-display text-lg font-bold">PURA BRISA</p>
           <p className="mt-2 text-sm text-paper/70">
-            Limpieza corporativa profesional para oficinas, obras, consorcios y particulares.
+            Limpieza corporativa profesional para oficinas, obras, consorcios, 
+            instituciones, cooperativas y particulares.
           </p>
         </div>
 
@@ -100,7 +101,7 @@ export default function Footer() {
               >
                 <WhatsAppIcon />
                 {/* número de teléfono */}
-                <span className="font-medium">+54 9 2257 68-1251</span>
+                <span className="font-medium">WhatsApp</span>
               </a>
             </li>
 

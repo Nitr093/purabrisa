@@ -51,7 +51,7 @@ export default function ContactForm() {
       <div className="grid gap-5 sm:grid-cols-2">
         <div className="flex flex-col gap-1.5">
           <label htmlFor="nombre" className="text-sm font-medium text-ink">
-            Nombre y apellido
+            Nombre y apellido *
           </label>
           <input
             id="nombre"
@@ -67,7 +67,7 @@ export default function ContactForm() {
 
         <div className="flex flex-col gap-1.5">
           <label htmlFor="empresa" className="text-sm font-medium text-ink">
-            Empresa
+            Empresa / Razon Social
           </label>
           <input
             id="empresa"
@@ -84,7 +84,7 @@ export default function ContactForm() {
       <div className="grid gap-5 sm:grid-cols-2">
         <div className="flex flex-col gap-1.5">
           <label htmlFor="email" className="text-sm font-medium text-ink">
-            Email
+            Email *
           </label>
           <input
             id="email"
@@ -121,7 +121,7 @@ export default function ContactForm() {
 
       <div className="flex flex-col gap-1.5">
         <label htmlFor="mensaje" className="text-sm font-medium text-ink">
-          Mensaje
+          Mensaje *
         </label>
         <textarea
           id="mensaje"
@@ -133,8 +133,9 @@ export default function ContactForm() {
           placeholder="Contanos qué necesitas"
           className="rounded-md border border-ink/15 bg-paper px-4 py-2.5 text-sm text-ink placeholder:text-slate/60 focus:border-teal focus:outline-none"
         />
+        <p className="space-y-2 text-sm text-slate">* Campos obligatorios</p>
       </div>
-
+        
       <button
         type="submit"
         disabled={status === "loading"}
