@@ -146,8 +146,11 @@ const SERVICIOS = [
     accentColor: "#2F6B76", // teal
     imagenes: [
       "https://res.cloudinary.com/dba5qhf2v/image/upload/v1783093572/WhatsApp_Image_2026-06-27_at_14.47.44_wbjxvf.jpg",
-      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1759200928/goku_wallpaper_elunhc.jpg",
-      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1756401116/kz8wt0rsw36sxqjc3idg.jpg",
+      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1784689825/WhatsApp_Image_2026-06-27_at_14.47.44_1_kgqixy.jpg",
+      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1784689151/WhatsApp_Image_2026-07-21_at_16.51.41_3_y3sqly.jpg",
+      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1784689492/WhatsApp_Image_2026-07-21_at_16.51.41_3_q5bmqx.jpg",
+      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1784689571/WhatsApp_Image_2026-07-21_at_16.51.41_3_w0il2a.jpg",
+            
     ],
   },
   {
@@ -158,8 +161,9 @@ const SERVICIOS = [
     accentColor: "#F2A93B", // amber
     imagenes: [
       "https://res.cloudinary.com/dba5qhf2v/image/upload/v1783093643/WhatsApp_Image_2026-06-19_at_18.26.23_d3curf.jpg",
-      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1756747288/u2ckcuifdyxr4otafcsc.jpg",
-      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1769624653/clo6xysnjmce2pgzcdty.png",      
+      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1784688678/WhatsApp_Image_2026-07-21_at_16.51.42_1_xsb8nz.jpg",
+      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1784689067/WhatsApp_Image_2026-07-21_at_16.51.41_adklyf.jpg",
+      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1784689229/WhatsApp_Image_2026-07-21_at_16.51.42_g6xm60.jpg",      
     ],
   },
   {
@@ -168,10 +172,11 @@ const SERVICIOS = [
       "Mantenimiento de palieres, escaleras, ascensores y espacios comunes, con supervisión periódica del administrador del edificio.",
     Icon: BuildingIcon,
     accentColor: "#5C8D6B", // sage
-    imagenes: [      
-      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1784643757/WhatsApp_Image_2026-06-18_at_19.55.24_3_gfgasa.jpg",
+    imagenes: [
+      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1784689326/WhatsApp_Image_2026-06-18_at_19.55.24_ydloey.jpg",
       "https://res.cloudinary.com/dba5qhf2v/image/upload/v1784642942/WhatsApp_Image_2026-06-18_at_19.55.20_cbyw7u.jpg",
       "https://res.cloudinary.com/dba5qhf2v/image/upload/v1784643510/WhatsApp_Image_2026-06-18_at_19.55.24_2_een91l.jpg",
+      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1784643757/WhatsApp_Image_2026-06-18_at_19.55.24_3_gfgasa.jpg",      
     ],
   },
   {
@@ -182,8 +187,9 @@ const SERVICIOS = [
     accentColor: "#5C8D6B", // sage
     imagenes: [      
       "https://res.cloudinary.com/dba5qhf2v/image/upload/v1783093776/WhatsApp_Image_2026-06-16_at_15.06.42_y1boe9.jpg",
-      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1759241407/wallpaperflare.com_wallpaper_re93yk.jpg",
-      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1759200929/12966_gumpjj.jpg",
+      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1784689818/WhatsApp_Image_2026-06-30_at_16.16.08_hzukxr.jpg",
+      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1784689822/WhatsApp_Image_2026-06-30_at_16.16.08_1_ef3rlu.jpg",
+      "https://res.cloudinary.com/dba5qhf2v/image/upload/v1784689925/WhatsApp_Image_2026-06-30_at_16.16.08_1_k0j8ha.jpg",
     ],
   },
 ];

@@ -70,12 +70,16 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-ink text-paper">
+    <footer className="bg-ink text-paper ">
       <div className="mx-auto grid max-w-6xl gap-10 px-6 py-12 sm:grid-cols-3">
 
         {/* ── Columna 1: Marca ── */}
         <div>
-          <p className="font-display text-lg font-bold">PURA BRISA</p>
+          <img
+            src="/purabrisa.png"
+            alt="Logo Texto Pura Brisa"
+            className="h-9 w-auto object-contain"
+          />
           <p className="mt-2 text-sm text-paper/70">
             Limpieza corporativa profesional para oficinas, obras, consorcios, 
             instituciones, cooperativas y particulares.
