@@ -21,8 +21,13 @@ export default function Navbar() {
         <a
           href="#inicio"
           onClick={closeMenu}
-          className="font-display text-xl font-700 tracking-tight text-ink"
+          className="flex items-center gap-2.5 font-display text-xl font-700 tracking-tight text-ink"
         >
+          <img
+            src="/logo.png"
+            alt="Logo Pura Brisa"
+            className="h-9 w-auto object-contain"
+          />
           PURA BRISA
           <span className="ml-2 hidden font-mono text-[11px] font-medium uppercase tracking-widest text-teal sm:inline">
             Limpieza Corporativa
