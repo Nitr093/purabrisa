@@ -102,7 +102,7 @@ export default function HeroSection() {
           </h1>
 
           <p className="mt-5 max-w-xl text-base text-paper/85 sm:text-lg">
-            Persnal capacitado, con supervisión constante y productos ecológicos
+            Personal capacitado, con supervisión constante y productos ecológicos
             para que tu lugar, luzca impecable todos los días.
           </p>
 

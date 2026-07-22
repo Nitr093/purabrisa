@@ -23,7 +23,8 @@ export default function Home() {
           Los procesos claros, generan resultados consistentes.
         </h2>
         <p className="mt-4 max-w-2xl text-slate">
-          Pura Brisa nace como una empresa familiar y poco a poco fue creciendo.
+          Pura Brisa nace como una empresa familiar y por su compromiso y calidad de servicio,
+          nuestra firma fue creciendo.
           Hoy, ya con más de una década acompañando a empresas, consorcios, institucions
           y particulares, con un servicio basado en protocolos y no en improvisación,
           contamos con un servicio integral de limpieza.
@@ -79,12 +80,13 @@ export default function Home() {
               Contanos sobre tu espacio y te respondemos con una propuesta
               ajustada a tu necesidad.
             </p>
-
             <ul className="mt-8 space-y-2 text-sm text-slate">
-              <li>📍 Cubrimos todo el partido de La Costa</li>
               <hr></hr>
-              <p className="mt-3 font-display text-3xl font-bold text-ink text-slate">¡ Nos pondremos en contacto !</p>
+              <li>📍 Cubrimos todo el Partido de La Costa y Pinamar.</li>
+              <hr></hr>
+              
             </ul>
+            <p className="mt-3 font-display text-3xl font-bold text-ink text-slate">¡ Nos pondremos en contacto !</p>
           </div>
 
           {/* Panel derecho — formulario */}
