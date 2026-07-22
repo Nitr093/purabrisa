@@ -38,7 +38,7 @@ export async function POST(request) {
     const remitente = process.env.MAIL_FROM || process.env.SMTP_USER;
 
     await transporter.sendMail({
-      from: `"Web Nítida - Formulario de contacto" <${remitente}>`,
+      from: `"Web Pura Brisa - Formulario de contacto" <${remitente}>`,
       to: destinatario,
       replyTo: email,
       subject: `Nueva consulta: ${empresa || nombre} — ${tipoServicio || "Sin especificar"}`,
